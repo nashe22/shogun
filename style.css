@@ -1,0 +1,64 @@
+body { background-color:#292929; }
+a { text-decoration:none; }
+
+
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: #c296d9;
+    box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+
+}
+
+
+
+.daycow { border:solid 1px #191919;width:550px;background-color:#212121;color:#999999;text-align:justify;margin:25px auto; }
+.daycow-t { border-bottom:solid 1px #191919;background-color:#1d1d1d;height:5px; }
+.daycow-img { width:550px;height:200px;position:absolute;background-image:url(https://i.ibb.co/ZTnYfk0/Modern-Day-Ashe.png);margin-top:61px;filter:grayscale(100%) contrast(125%);opacity:.035; }
+.daycow-top { position:relative;z-index:1;padding:15px;border-bottom:solid 1px #191919;background-color:#212121;height:30px; }
+.daycow-top-link { border-radius:3px;border:solid 1px #191919;float:left;height:28px;width:28px;background-color:#252525;margin-right:5px; }
+.daycow-top-link div, .daycow-top-1 div { color:#c296d9;font-size:10px;text-align:center; }
+.daycow-top-1 { cursor:pointer;color:#c296d9;border-radius:3px;border:solid 1px #191919;float:right;font-size:10px;height:28px;line-height:28px;text-align:center;width:28px;background-color:#252525;margin-left:5px; }
+.daycow-top-2 { cursor:text;border-radius:3px;border:solid 1px #191919;background-color:#252525;font:10px Inconsolata;line-height:10px;padding:9px;text-transform:lowercase;letter-spacing:.5px;margin:0px 105px 0px 35px; }
+.daycow-top-2 b { color:#c296d9; }
+.daycow-lyrics { overflow:hidden;position:relative;height:200px;text-shadow:.75px .75px 0px #2a2a2a, .75px 0px 0px #2a2a2a, 0px .75px 0px #2a2a2a, -.75px 0px 0px #2a2a2a, 0px -.75px 0px #2a2a2a, -.75px .75px 0px #2a2a2a, .75px -.75px 0px #2a2a2a, -.75px -.75px 0px #2a2a2a; }
+.daycow-lyrics div { position:absolute;font-size:300px;line-height:300px;height:250px;color:#202020;margin:-110px 0px 0px 0px;width:550px;text-align:center; }
+.daycow-lyrics h1 { position:relative;padding:0px;margin:0px 0px 0px -80px;letter-spacing:3px;text-align:center;color:#cccccc;text-transform:uppercase;font:bold 17px Roboto Condensed;font-style:italic;line-height:15px; }
+.daycow-lyrics h2 { color:#c296d9;position:relative;margin:-25px 0px 0px 0px;padding:0px;text-align:center;font:100px Mr Dafoe;line-height:90px; }
+.daycow-hov { height:462px;overflow:hidden; }
+.daycow-hov-2 { -webkit-transition-delay: .4s; transition-delay: .4s;-webkit-transition-duration:.6s;transition-duration:.6s;-moz-transition-duration:.6s;position:absolute;font-size:200px;line-height:200px;margin:211px 0px 0px -250px;transform:rotate(180deg);color:#212121;text-shadow:.75px .75px 0px #2a2a2a, .75px 0px 0px #2a2a2a, 0px .75px 0px #2a2a2a, -.75px 0px 0px #2a2a2a, 0px -.75px 0px #2a2a2a, -.75px .75px 0px #2a2a2a, .75px -.75px 0px #2a2a2a, -.75px -.75px 0px #2a2a2a; }
+.daycow-notes { -webkit-transition-delay: .4s; transition-delay: .4s;-webkit-transition-duration:.6s;transition-duration:.6s;-moz-transition-duration:.6s;position:absolute;border:solid 1px #191919;padding:24px;padding-right:19px;background-color:#1c1c1c;margin:175px 0px 0px -20px;opacity:0; }
+.daycow-notes h1 { font:35px Mr Dafoe;text-align:right;line-height:30px;color:#c296d9;margin:0px;padding:0px 10px 5px 0px; }
+.daycow-notes div { font:10px Verdana;padding-right:5px;width:110px;height:103px;overflow:auto; }
+.daycow-notes div::-webkit-scrollbar-thumb:vertical { border:solid 1px #191919;background-color:#212121;border-radius:0px; }
+.daycow-notes div::-webkit-scrollbar { border:none;border-radius:0px;background:transparent;width:7px; }
+.daycow-tagged { -webkit-transition-delay: 1s; transition-delay: 1s;-webkit-transition-duration:.6s;transition-duration:.6s;-moz-transition-duration:.6s;border-top:solid 1px #191919;border-bottom:solid 1px #191919;height:40px;position:relative;overflow:hidden;z-index:1;letter-spacing:.5px;background-color:#1d1d1d;font:bold 10px Roboto Condensed;text-transform:uppercase;line-height:10px; }
+.daycow-tagged div { float:left;padding:15px;border-right:solid 1px #191919; }
+.daycow-tagged div a { font:bold 10px Roboto Condensed;line-height:10px;color:#c296d9!important; }
+.daycow-bulk { padding:30px;background-color:#212121;position:relative; }
+.daycow-icon { border:solid 1px #191919;float:left;padding:24px;background-color:#c296d9; }
+.daycow-icon div { height:102px;width:102px;padding:3px;border:solid 1px #191919;background-color:#212121; }
+.daycow-icon div img { height:100px;width:100px;border:solid 1px #191919;filter:grayscale(100%) contrast(85%); }
+.daycow-post { margin-left:175px;border:solid 1px #191919;background-color:#1d1d1d;padding:19px; }
+.daycow-post-1 { border:solid 1px #c296d9;padding:23px; }
+.daycow-post-2 { -webkit-transition-delay: 1s; transition-delay: 1s;-webkit-transition-duration:.6s;transition-duration:.6s;-moz-transition-duration:.6s;height:74px;font:10px Verdana;text-align:justify;padding-right:10px;overflow:auto; }
+.daycow-post-2::-webkit-scrollbar-thumb:vertical { border:solid 1px #191919;background-color:#212121;border-radius:0px; }
+.daycow-post-2::-webkit-scrollbar { border:none;border-radius:0px;background:transparent;width:7px; }
+.daycow-post-2 font { font:bold 11px Roboto Condensed;letter-spacing:.35px;color:#c296d9; }
+.daycow-post-2 b { font:bold 11px Roboto Condensed;letter-spacing:.35px;color:#cccccc; }
+.daycow-post-2 i { color:#cccccc; }
+.daycow-bottom { border-top:solid 1px #191919;background-color:#1d1d1d;font:bold 10px Roboto Condensed;line-height:10px;letter-spacing:1px;padding:29px 0px;text-align:center; }
+.daycow-bottom b { color:#c296d9;padding:0px 15px; }
+.daycow:hover .daycow-tagged { -webkit-transition-delay: 0s; transition-delay: 0s;margin-top:-201px; }
+.daycow:hover .daycow-post-2 { -webkit-transition-delay: 0s; transition-delay: 0s;height:275px; }
+.daycow:hover .daycow-notes { -webkit-transition-delay: 1.2s; transition-delay: 1.2s;margin-left:0px;opacity:1; }
+.daycow:hover .daycow-hov-2 { -webkit-transition-delay: .6s; transition-delay: .6s;margin-left:-50px;transform:rotate(360deg); }
